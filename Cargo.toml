@@ -1,8 +1,8 @@
 [package]
-authors = ['Zababurin Sergey <https://github.com/substrate-developer-hub>']
+authors = ['Zababurin Sergey <https://zababurinsv.github.io>']
 description = 'FRAME pallet template for defining custom runtime logic.'
 edition = '2018'
-homepage = 'https://zababurinsv.github.io/'
+homepage = 'https://zababurinsv.github.io'
 license = 'Unlicense'
 name = 'pallet_donation'
 repository = 'https://github.com/zababurinsv/pallet-donation'
