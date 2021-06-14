@@ -96,7 +96,7 @@ pub mod pallet {
 			ensure!(!Proofs::<T>::contains_key(&proof), Error::<T>::ProofAlreadyClaimed);
 
 			// Get the block number from the FRAME System module.
-			let current_block = <frame_system::Module<T>>::block_number();
+			let current_block = <frame_system::Pallet<T>>::block_number();
 
 			// Store the proof with the sender and block number.
 			Proofs::<T>::insert(&proof, (&sender, current_block));
